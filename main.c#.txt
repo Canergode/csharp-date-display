@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DateDisplay  
+{
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Get current date components
+            int year = DateTime.Today.Year;
+            int month = DateTime.Today.Month;
+            int day = DateTime.Today.Day;
+
+            // Display in day.month.year format
+            Console.WriteLine(day + "." + month + "." + year);
+            Console.ReadLine();
+        }
+
+    }
+
+}
